@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: #3A4528;
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 0;
+            padding: 20px;
+            gap: 60px;
+        }
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 60px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .navbar a:hover {
+            color: #8F9779;
+            text-decoration: underline;
+        }
+
+        /* About Us Section */
+        .about-section {
+            background-image: url('green_background.jpeg');
+            background-position: center;
+            color: black;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .about-section h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .about-section p {
+            font-size: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Mission Statement */
+        .mission {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #f9f9f9;
+        }
+        .mission h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #3A4528;
+        }
+        .mission p {
+            font-size: 18px;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #555;
+        }
+
+        /* Team Section */
+        .team-section {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #e8e8e8;
+        }
+        .team-section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #3A4528;
+        }
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .team-member {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 250px;
+            text-align: center;
+        }
+        .team-member img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .team-member h3 {
+            font-size: 20px;
+            color: #3A4528;
+            margin: 15px 0 5px;
+        }
+        .team-member p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="bouquet.html">Bouquet Gallery</a></li>
+            <li><a href="plants.html">Plant Gallery</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="about-section">
+        <h1>About Enchanted Florals</h1>
+        <p>At Enchanted Florals, we believe in the beauty of nature and the joy it brings to everyday life. Our passion is crafting exquisite bouquets and plant arrangements that brighten your day and your space.</p>
+    </div>
+
+    <div class="mission">
+        <h2>Our Mission</h2>
+        <p>To bring the elegance and serenity of nature into every home through beautifully curated floral designs and personalized customer service.</p>
+    </div>
+
+    <div class="team-section">
+        <h2>Meet Our Team</h2>
+        <div class="team">
+            <div class="team-member">
+                <img src="team1.jpg" alt="Team Member 1">
+                <h3>Jane Doe</h3>
+                <p>Founder & Lead Designer</p>
+            </div>
+            <div class="team-member">
+                <img src="team2.jpg" alt="Team Member 2">
+                <h3>John Smith</h3>
+                <p>Plant Care Specialist</p>
+            </div>
+            <div class="team-member">
+                <img src="team3.jpg" alt="Team Member 3">
+                <h3>Emily Johnson</h3>
+                <p>Customer Relations Manager</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
